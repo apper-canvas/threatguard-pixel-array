@@ -72,7 +72,7 @@ const Keywords = () => {
     }
 
     // Filter by active status
-    if (showActiveOnly) {
+if (showActiveOnly) {
       filtered = filtered.filter(keyword => keyword.isActive)
     }
 
@@ -95,7 +95,7 @@ const Keywords = () => {
     setEditingKeyword(keyword)
     setFormData({
       term: keyword.term,
-      category: keyword.category,
+category: keyword.category,
       severity: keyword.severity
     })
     setShowAddModal(true)

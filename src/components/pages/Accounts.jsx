@@ -44,7 +44,7 @@ const Accounts = () => {
     let filtered = accounts
 
     // Filter by search term
-    if (searchTerm) {
+if (searchTerm) {
       filtered = filtered.filter(account =>
         account.username.toLowerCase().includes(searchTerm.toLowerCase()) ||
         account.flags?.some(flag => flag.toLowerCase().includes(searchTerm.toLowerCase()))
@@ -53,7 +53,7 @@ const Accounts = () => {
 
     // Filter by threat level
     if (selectedThreatLevel) {
-      filtered = filtered.filter(account => {
+filtered = filtered.filter(account => {
         const score = account.threatScore
         switch (selectedThreatLevel) {
           case 'critical': return score >= 90
@@ -77,11 +77,11 @@ const Accounts = () => {
       switch (sortBy) {
         case 'threatScore':
           return b.threatScore - a.threatScore
-        case 'interactions':
-          return b.interactions - a.interactions
+return b.interactions - a.interactions
         case 'firstSeen':
           return new Date(b.firstSeen) - new Date(a.firstSeen)
         case 'username':
+          return a.username.localeCompare(b.username)
           return a.username.localeCompare(b.username)
         default:
           return 0
