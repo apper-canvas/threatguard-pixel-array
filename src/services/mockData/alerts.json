@@ -1,0 +1,41 @@
+[
+  {
+    "Id": 1,
+    "threatId": "1",
+    "message": "High-severity harassment threat detected from @malicious_user_123",
+    "priority": "high",
+    "isRead": false,
+    "createdAt": "2024-01-15T14:35:00Z"
+  },
+  {
+    "Id": 2,
+    "threatId": "3",
+    "message": "Critical impersonation attempt - Immediate action required",
+    "priority": "critical",
+    "isRead": false,
+    "createdAt": "2024-01-15T12:25:00Z"
+  },
+  {
+    "Id": 3,
+    "threatId": "4",
+    "message": "Coordinated harassment campaign detected across multiple platforms",
+    "priority": "high",
+    "isRead": true,
+    "createdAt": "2024-01-15T11:20:00Z"
+  },
+  {
+    "Id": 4,
+    "message": "Weekly security report: 15 new threats detected this week",
+    "priority": "medium",
+    "isRead": true,
+    "createdAt": "2024-01-14T09:00:00Z"
+  },
+  {
+    "Id": 5,
+    "threatId": "2",
+    "message": "Spam activity resolved - Account @fake_promo_bot has been blocked",
+    "priority": "low",
+    "isRead": true,
+    "createdAt": "2024-01-13T16:30:00Z"
+  }
+]

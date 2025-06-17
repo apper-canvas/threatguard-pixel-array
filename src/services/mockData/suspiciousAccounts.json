@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 1,
+    "username": "@malicious_user_123",
+    "threatScore": 85,
+    "flags": ["new_account", "fake_followers", "harassment"],
+    "firstSeen": "2024-01-10T09:00:00Z",
+    "interactions": 12
+  },
+  {
+    "Id": 2,
+    "username": "@fake_promo_bot",
+    "threatScore": 72,
+    "flags": ["bot_behavior", "spam_content", "suspicious_activity"],
+    "firstSeen": "2024-01-08T15:30:00Z",
+    "interactions": 45
+  },
+  {
+    "Id": 3,
+    "username": "@your_name_fake",
+    "threatScore": 95,
+    "flags": ["impersonation", "stolen_content", "identity_theft"],
+    "firstSeen": "2024-01-12T11:20:00Z",
+    "interactions": 8
+  },
+  {
+    "Id": 4,
+    "username": "@anonymous_hater",
+    "threatScore": 88,
+    "flags": ["cyberbullying", "coordinated_harassment", "multiple_reports"],
+    "firstSeen": "2024-01-05T16:45:00Z",
+    "interactions": 23
+  },
+  {
+    "Id": 5,
+    "username": "@sus_link_sender",
+    "threatScore": 78,
+    "flags": ["phishing_attempts", "malicious_links", "suspicious_dm"],
+    "firstSeen": "2024-01-11T13:10:00Z",
+    "interactions": 6
+  }
+]

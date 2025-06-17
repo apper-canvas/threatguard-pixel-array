@@ -1,0 +1,37 @@
+[
+  {
+    "Id": 1,
+    "term": "threatening language",
+    "category": "harassment",
+    "severity": "high",
+    "isActive": true
+  },
+  {
+    "Id": 2,
+    "term": "free money",
+    "category": "spam",
+    "severity": "medium",
+    "isActive": true
+  },
+  {
+    "Id": 3,
+    "term": "click here now",
+    "category": "phishing",
+    "severity": "medium",
+    "isActive": true
+  },
+  {
+    "Id": 4,
+    "term": "you're worthless",
+    "category": "cyberbullying",
+    "severity": "high",
+    "isActive": true
+  },
+  {
+    "Id": 5,
+    "term": "verify account",
+    "category": "impersonation",
+    "severity": "critical",
+    "isActive": false
+  }
+]

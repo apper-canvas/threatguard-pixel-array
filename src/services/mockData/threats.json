@@ -1,0 +1,47 @@
+[
+  {
+    "Id": 1,
+    "type": "harassment",
+    "severity": "high",
+    "source": "@malicious_user_123",
+    "content": "Threatening language detected in comment: 'I know where you live...'",
+    "timestamp": "2024-01-15T14:30:00Z",
+    "status": "active"
+  },
+  {
+    "Id": 2,
+    "type": "spam",
+    "severity": "medium",
+    "source": "@fake_promo_bot",
+    "content": "Repetitive promotional content detected across multiple posts",
+    "timestamp": "2024-01-15T13:45:00Z",
+    "status": "resolved"
+  },
+  {
+    "Id": 3,
+    "type": "impersonation",
+    "severity": "critical",
+    "source": "@your_name_fake",
+    "content": "Account attempting to impersonate your identity with stolen profile photo",
+    "timestamp": "2024-01-15T12:20:00Z",
+    "status": "active"
+  },
+  {
+    "Id": 4,
+    "type": "cyberbullying",
+    "severity": "high",
+    "source": "@anonymous_hater",
+    "content": "Coordinated harassment campaign detected from multiple accounts",
+    "timestamp": "2024-01-15T11:15:00Z",
+    "status": "monitoring"
+  },
+  {
+    "Id": 5,
+    "type": "phishing",
+    "severity": "medium",
+    "source": "@sus_link_sender",
+    "content": "Suspicious link shared in DM leading to potential phishing site",
+    "timestamp": "2024-01-15T10:30:00Z",
+    "status": "blocked"
+  }
+]
